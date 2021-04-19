@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(215, 198, 84, 0.3);
+}
+
+/*HEADER*/
+header{
+   background-color: black;
+    color:white;
+   font-size: 50px;
+   font-family: 'Oswald', sans-serif;
+   margin-bottom: 5%;
+}
+
+#logo{
+    width: 6%;
+    
+}
+
+/*BARRA DE NAVEGACION*/
+nav{
+    text-align: end;
+    
+}
+.itemMenu{
+    display: inline-block;
+    width: 15%;
+    border: 1px solid black; 
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    background-color: rgba(215, 198, 84, 1);
+}
+
+.itemMenu:hover{
+    background-color:  rgba(215, 198, 84, 0.5);
+    
+}
+
+
+
+.itemMenu a:visited{
+    color: black;
+}
+
+.itemMenu a{
+    display: block;
+    text-decoration: none;
+    padding: 1%;
+    text-align: center;
+    
+}
+
+/*ARTICULOS PAGINA PRINCIPAL*/ 
+section{
+    box-sizing: border-box;
+    width: 80%;
+    background-color: rgba(215, 198, 84, 0.5);
+    padding:5%;
+    float: left;
+    margin-top: 5%;
+    
+    
+}
+
+/*ARTICULO DESTACADO*/
+#destacado{
+    padding:0;
+    margin: 0;
+    width: 100%;
+    background-color: rgba(215, 198, 84, 1);
+    padding-bottom: 40%;
+    
+
+}
+#destacado img{
+    float: right;
+  width: 40%;
+  padding-right: 5%;
+
+    
+    
+}
+
+#destacado p{
+    float:left;
+    width: 50%;
+}
+
+/*ARTICULOS NORMALES*/ 
+.articuloPrincipal{
+    
+    float:left;
+    width: 45%;
+    font-family: 'Assistant', sans-serif;
+    padding-bottom: 5%;
+    background-color: rgba(215, 198, 84,1);
+    margin: 1%;
+    
+    overflow: hidden;
+    
+}
+
+.articuloPrincipal h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5%;
+    
+}
+
+.imagenPrincipal{
+    width: 100%;
+    max-width: 500px;
+    padding: 2%;
+}
+
+.seguirLeyendo{
+    text-decoration: none;
+    
+}
+
+/*BANNER LATERAL */ 
+#banner{
+    float: right;
+    width: 20%;
+    background-image: url(./imagenes/banner.jpg);
+    margin-top: 5%;
+    padding: 100% 0;
+    text-align: center;
+    color: white;
+}
+
+/*FOOTER*/
+footer{
+    clear: both;
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    padding:3%;
+    text-align: right;
+
+}
+
+footer a{
+color:white; 
+text-decoration: none;
+}
+
+footer a:hover{
+    color: yellow;
+}
+
+
+
+
+
+
+
+
